@@ -64,7 +64,8 @@ body {
 }
 
 .HOMETEKST {
-  margin-bottom: 90px;
+  margin-top: 90px;
+  margin-left: 100px;
   color: #0056ff;
   font-size: 2.5rem;
   font-weight: bold;
@@ -77,6 +78,8 @@ body {
 
 .home-image {
   width: 300px;
+  margin-right: 250px;
+  margin-top: 50px;
   height: 300px;
   border-radius: 50%;
   border: 5px solid white;
@@ -95,7 +98,7 @@ body {
   color: #ffffff; /* white text */
   text-align: center;
   padding:  2rem;
-  width: 72.7rem;
+  width: 91.9rem;
   margin-top: 19px;
   border: 1px solid #0000ff; /* thin blue border, like in screenshot */
   font-weight: 500px;
@@ -106,15 +109,16 @@ body {
 /*button*/
 
 .home-button {
+  margin-left: 150px;
   background-color: #FF00EE;
   color: rgb(4, 4, 4);
   border: none;
   border-radius: 100px;
    font-weight: bold;
-  padding: 0.8rem 1.5rem;
+  padding: 0.8rem 2rem;
   font-size: 1.1rem;
   cursor: pointer;
-  text-decoration: none; /* only needed if using Link as button */
+  text-decoration: none;
   transition: background-color 0.3s;
 }
 
