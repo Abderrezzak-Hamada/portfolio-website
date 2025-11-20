@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../index.css";
-import myPhoto from "../images/Schermafbeelding 2024-10-25 092102.png";
+
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
       </div>
 
       <div className="image-section">
-        <img src={myPhoto} alt="Abderrezzak Hamada" className="home-image" />
+        <img src='./images/gg1.jpg' alt="Abderrezzak Hamada" className="home-image" />
       </div>
     </div>
   );
